@@ -10,7 +10,10 @@
 <body>
     <header>
         <nav>
-            <h2 class="logo">MyPortfolio</h2>
+            <h2 class="logo">MyPortfolio
+                <img class="profile-image2" src="pics/90e79ea9240aaa971bc518799f3c1227.jpg">
+            </h2>
+            
             <button id="darkToggle">🌙</button>
              <img class="profile-image1" src="pics/pics/Elegant Red Bull Logo.jpeg">
         </nav>
@@ -28,7 +31,7 @@
         <h2>About Me</h2>
         <div class="about-content">
             <div class="img-box">
-              <img class="profile-pic" src="pics/pics/Elegant Red Bull Logo.jpeg">
+              <img class="profile-pic" src="pics/isa_pic.jpg">
             </div>
             <p>
                 I am a creative and passionate developer who loves building clean,
@@ -72,11 +75,12 @@
         <h2>Projects</h2>
         <div class="project-grid">
             <div class="project-card">
-                <h3>Project One</h3>
-                <p>A simple description of your project.</p>
+                <h3>Online Library System</h3>
+                <p>A C++ OOP system for managing books and users.</p>
+                <a href="https://github.com/yourusername/LibrarySystem" target="_blank">View on GitHub</a>
             </div>
             <div class="project-card">
-                <h3>Project Two</h3>
+                <h3>Amazon Project</h3>
                 <p>Something interesting you built.</p>
             </div>
             <div class="project-card">
@@ -91,28 +95,47 @@
         <h2>click button below for more:</h2>
         <p>Email: felixmburu03@gmail.com</p>
         <p>Location: Kiambu, Kenya</p>
-        <button class="handles"
-        onclick="window.location.href='https://github.com/isa-kernel/LibrarySystem.git'"
-        >
-            <img class="logosp" src="pics/logos/linkedin.png">
-        </button>
 
+        
        <button class="handles" 
-        <button class="handles"
         onclick="window.location.href='https://www.linkedin.com/in/felix-isaack-7193963a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'"
         >
-            <img class="logosp" src="pics/logos/social.png">
+           <img class="logosp" src="pics/logos/linkedin.png">
         </button>
 
-    <!-- CONTACT SECTION -->
+        <button class="handles"
+        onclick="window.location.href='https://github.com/isa-kernel/LibrarySystem.git'">
+         <img class="logosp" src="pics/logos/social.png">
+            
+        </button>
+
+    </section>
+
+    <!--contacts section-->
     <section class="contact">
-        <h2>Contact Me</h2>
-        <form>
-            <input type="text" placeholder="Your Name" required />
-            <input type="email" placeholder="Your Email" required />
-            <textarea placeholder="Your Message"></textarea>
-            <button type="submit" class="btn">Send</button>
-        </form>
+     <h2>contact Me</h2>
+<form class="contact-form">
+
+        
+    <div class="floating-group">
+        <input type="text" required>
+        <label>Your Name</label>
+    </div>
+
+    <div class="floating-group">
+        <input type="email" required>
+        <label>Your Email</label>
+    </div>
+
+    <div class="floating-group">
+        <textarea required></textarea>
+        <label>Your Message</label>
+    </div>
+
+    <button type="submit" class="btn">Send Message</button>
+
+</form>
+   
     </section>
 
     <script src="script.js"></script>
